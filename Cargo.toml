@@ -1,0 +1,9 @@
+[package]
+name = "game_of_life_gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27.2" # 用于窗口和渲染循环
+egui = "0.27.2"   # GUI库
+rand = "0.8.5"    # 用于生成随机初始状态
